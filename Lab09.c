@@ -105,7 +105,9 @@ void __interrupt() isr (void)                   //función de interrupciones
 void main(void) {
     setup();
     while(1){
-    
+  
+        
+        
         
     if (ADCON0bits.GO == 0) {               //Aqui se evalua el canal que se estara utilizando
         if (ADCON0bits.CHS == 0)
